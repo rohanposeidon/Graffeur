@@ -390,7 +390,7 @@ class Graph implements Graph_Interface
 		{
 		}
 	}
-	static double video(double x)
+	static double easter(double x)
 	{
 		if (easter==true)
 			try
