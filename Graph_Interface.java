@@ -1,0 +1,45 @@
+public interface Graph_Interface
+{
+	double f(double x);
+	boolean createaccount(String username,String password);
+	boolean login(String username,String password);
+	void plotGraph();
+	void makeContinuous();
+	void plotAxes();
+	void printGraph();
+	void zoomIn();
+	void zoomOut();
+	void zoomInX();
+	void zoomOutX();
+	void zoomInY();
+	void zoomOutY();
+	void zoomInX(double fact);
+	void zoomInY(double fact);
+	void zoomIn(double fact);
+	void zoomOutX(double fact);
+	void zoomOutY(double fact);
+	void zoomOut(double fact);
+	void panRight();
+	void panLeft();
+	void panUp();
+	void panDown();
+	void panI();
+	void panII();
+	void panIII();
+	void panIV();
+	void panRight(int pix);
+	void panLeft(int pix);
+	void panUp(int pix);
+	void panDown(int pix);
+	void panI(int pix);
+	void panII(int pix);
+	void panIII(int pix);
+	void panIV(int pix);
+	void panI(int pix,int piy);
+	void panII(int pix,int piy);
+	void panIII(int pix,int piy);
+	void panIV(int pix,int piy);
+	void reset();
+	void exportImage(String s);
+	double integrate(double low, double high);
+}
